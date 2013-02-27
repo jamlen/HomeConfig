@@ -1,0 +1,4 @@
+[
+  // { "keys": ["ctrl+left"], "command": "move_camel_hump", "args": [-1] },
+  // { "keys": ["ctrl+right"], "command": "move_camel_hump", "args": [1] }
+]

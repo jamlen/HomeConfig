@@ -1,0 +1,20 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"CTags",
+		"DetectSyntax",
+		"ERB Insert and Toggle Commands",
+		"ERB Snippets",
+		"Haml",
+		"Inc-Dec-Value",
+		"Package Control",
+		"RSpec",
+		"RSpec (snippets and syntax)",
+		"RspecBuild",
+		"Sass",
+		"Theme - Nexus",
+		"Theme - Soda",
+		"Twitter Bootstrap Snippets"
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"color_scheme": "Packages/User/GrandsonOfObsidian.tmTheme",
+	"font_face": "Envy Code R",
+	"font_size": 17,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"new_window_settings":
+	{
+		"show_minimap": false
+	},
+	"save_on_focus_lost": true,
+	"tab_size": 2,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
