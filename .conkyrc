@@ -60,14 +60,14 @@ ${color FFFFFF}${voffset -30}${color FFFFFF}${font Caviar Dreams:size=18}${time 
 ${voffset 140}${font Caviar Dreams:size=10}${alignr}${font}
 ${font Caviar Dreams:size=12}${color FFFFFF}${alignr}${font}
 
-${color FFFFFF}${goto 25}${voffset 35}${cpu cpu0}%
-${color 336699}${goto 25}CPU
-${color FFFFFF}${goto 50}${voffset 23}${memperc}%
-${color 336699}${goto 50}RAM
-${color FFFFFF}${goto 75}${voffset 23}${swapperc}%
-${color 336699}${goto 75}Swap
-${color FFFFFF}${goto 100}${voffset 23}${fs_used_perc /}%
-${color 336699}${goto 100}Disk
+${color FFFFFF}${goto 40}${voffset 32}${cpu cpu0}%
+${color 336699}${goto 40}CPU
+${color FFFFFF}${goto 63}${voffset 25}${memperc}%
+${color 336699}${goto 63}RAM
+${color FFFFFF}${goto 91}${voffset 23}${swapperc}%
+${color 336699}${goto 85}Swap
+${color FFFFFF}${goto 114}${voffset 24}${fs_used_perc /}%
+${color 336699}${goto 114}Disk
 ${color FFFFFF}${goto 125}${voffset 25}${downspeed eth0}
 ${color FFFFFF}${goto 125}${upspeed eth0}
 ${color 336699}${goto 125}Net

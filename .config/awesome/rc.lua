@@ -1,11 +1,11 @@
 -- Standard awesome library
-require("awful")
+local awful = require("awful")
 require("awful.autofocus")
-require("awful.rules")
+awful.rules = require("awful.rules")
 -- Theme handling library
-require("beautiful")
+local beautiful = require("beautiful")
 -- Notification library
-require("naughty")
+local naughty = require("naughty")
 
 -- Load Debian menu entries
 require("debian.menu")
@@ -42,8 +42,13 @@ beautiful.init("/usr/share/awesome/themes/niceandclean/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "x-terminal-emulator"
-editor = os.getenv("EDITOR") or "editor"
+editor = os.getenv("EDITOR") or "nano"
 editor_cmd = terminal .. " -e " .. editor
+
+local home   = os.getenv("HOME")
+local exec   = awful.util.spawn
+local sexec  = awful.util.spawn_with_shell
+local scount = screen.count()
 
 -- Default modkey.
 -- Usually, Mod4 is the key with a logo between Control and Alt.
@@ -62,11 +67,7 @@ layouts =
     awful.layout.suit.tile.top,
     awful.layout.suit.fair,
     awful.layout.suit.fair.horizontal,
-    awful.layout.suit.spiral,
-    awful.layout.suit.spiral.dwindle,
-    awful.layout.suit.max,
-    awful.layout.suit.max.fullscreen,
-    awful.layout.suit.magnifier
+    awful.layout.suit.max
 }
 -- }}}
 
