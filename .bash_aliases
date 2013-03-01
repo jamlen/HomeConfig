@@ -1,5 +1,5 @@
 alias ext-monitor='xrandr --output HDMI-0 --mode 1280x1024 --left-of LVDS | feh --bg-scale /usr/share/awesome/themes/default/background.png'
-alias rclua='sudo nano /etc/xdg/awesome/rc.lua'
+alias rclua='sudo nano ~/.config/awesome/rc.lua'
 alias subl-rclua='sudo subl -n /etc/xdg/awesome/rc.lua'
 alias sysmon='gnome-system-monitor'
 alias chrome='chromium-browser'
