@@ -68,15 +68,16 @@ ${color FFFFFF}${goto 91}${voffset 23}${swapperc}%
 ${color 336699}${goto 85}Swap
 ${color FFFFFF}${goto 114}${voffset 24}${fs_used_perc /}%
 ${color 336699}${goto 114}Disk
-${color FFFFFF}${goto 125}${voffset 25}${downspeed eth0}
-${color FFFFFF}${goto 125}${upspeed eth0}
-${color 336699}${goto 125}Net
-
+${color FFFFFF}${goto 136}${voffset 25}${battery_percent BAT0}%
+${color FFFFFF}${goto 136}${battery_percent BAT1}%
+${color 336699}${goto 125}Bat
 
 
 ${color FFFFFF}${font Caviar Dreams:size=8}Uptime: ${uptime_short}
 ${color FFFFFF}${font Caviar Dreams:size=8}Processes: ${processes}
 ${color FFFFFF}${font Caviar Dreams:size=8}Running: ${running_processes}
+${color FFFFFF}${font Caviar Dreams:size=8}Battery 0: ${battery_percent BAT0}%-${battery_bar BAT0}
+${color FFFFFF}${font Caviar Dreams:size=8}Battery 1: ${battery_percent BAT1}%-${battery_bar BAT1}
 
 
 ${color 336699}${font Caviar Dreams:size=8}${alignr}${nodename}
