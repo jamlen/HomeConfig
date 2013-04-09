@@ -2,6 +2,9 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"Case Conversion",
+		"CoffeeScript",
+		"CSV",
 		"CTags",
 		"DetectSyntax",
 		"ERB Insert and Toggle Commands",
