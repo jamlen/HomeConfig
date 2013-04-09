@@ -1,0 +1,9 @@
+{
+	"csv_per_file_setting":
+	[
+		{
+			"file": "/home/jallen/filesystem.log",
+			"use_header": true
+		}
+	]
+}
